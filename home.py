@@ -14,3 +14,14 @@ elif operator == "**":
     print(num1 ** num2)
 else:
     print("Invalid operator")
+
+
+
+if num1 > num2:
+    print(num1, "greater than", num2)
+elif num1 < num2:
+    print(num1, "less than", num2)
+else:
+    print(num1, "equal to", num2)
+
+
